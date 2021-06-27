@@ -1,1 +1,1 @@
-# FontAwesome v5.1.0 - Icon set 
+# FontAwesome v5.1.1 - Icon set 
