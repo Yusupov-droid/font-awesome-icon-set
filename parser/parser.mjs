@@ -7,7 +7,7 @@ import { minify } from 'terser';
 const file_max = './dist/iconset.js'
 const file_min = './dist/iconset.min.js'
 
-const address = 'https://github.com/FortAwesome/Font-Awesome/raw/5.1.0/advanced-options/metadata/icons.yml'
+const address = 'https://github.com/FortAwesome/Font-Awesome/raw/5.1.1/advanced-options/metadata/icons.yml'
 
 
 let parser = async () => {
