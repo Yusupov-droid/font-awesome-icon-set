@@ -2,10 +2,9 @@ import fs from 'fs';
 import axios from 'axios';
 import jsyaml from 'js-yaml';
 import prettier from 'prettier';
-import { minify } from 'terser';
 
-const file_max = './dist/iconset.js'
-const file_min = './dist/iconset.min.js'
+
+const file_max = './src/iconset.js'
 
 const address = 'https://github.com/FortAwesome/Font-Awesome/raw/5.1.1/advanced-options/metadata/icons.yml'
 
@@ -65,12 +64,11 @@ let parser = async () => {
 
     });
 
-    let jsfile = ' var ICON_SET = ' + JSON.stringify(icons)
+    let jsfile = ' export default ' + JSON.stringify(icons)
     let formatted = prettier.format(jsfile, { parser: 'babel', printWidth: 2000 })
-    let minified = await minify(formatted);
 
     await fs.promises.writeFile(file_max, formatted)
-    await fs.promises.writeFile(file_min, minified.code)
+
 }
 
 
