@@ -1,10 +1,10 @@
 {
   "name": "font-awesome-iconset",
-  "version": "5.1.1",
+  "version": "5.2.0",
   "description": "Font Awesome icon set.",
   "main": "./dist/iconset.min.js",
   "scripts": {
-    "build": "node ./parser/parser.mjs"
+    "build": "node ./parser/parser.mjs && webpack"
   },
   "keywords": [],
   "author": "Yusupov-droid <jamnum9813@gmail.com>",

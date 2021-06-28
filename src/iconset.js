@@ -1,42 +1,4 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["ICON_SET"] = factory();
-	else
-		root["ICON_SET"] = factory();
-})(this, function() {
-return /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The require scope
-/******/ 	var __webpack_require__ = {};
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-var __webpack_exports__ = {};
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([
+export default [
   { value: "fab fa-500px", search: [] },
   { value: "fab fa-accessible-icon", search: ["accessibility", "handicap", "person", "wheelchair", "wheelchair-alt"] },
   { value: "fab fa-accusoft", search: [] },
@@ -1335,10 +1297,4 @@ var __webpack_exports__ = {};
   { value: "fab fa-youtube", search: ["film", "video", "youtube-play", "youtube-square"] },
   { value: "fab fa-youtube-square", search: [] },
   { value: "fab fa-zhihu", search: [] },
-]);
-
-__webpack_exports__ = __webpack_exports__.default;
-/******/ 	return __webpack_exports__;
-/******/ })()
-;
-});
+];
