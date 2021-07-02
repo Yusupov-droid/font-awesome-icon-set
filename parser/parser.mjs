@@ -6,7 +6,7 @@ import prettier from 'prettier';
 
 const file_max = './src/iconset.js'
 
-const address = 'https://github.com/FortAwesome/Font-Awesome/raw/5.13.1/metadata/icons.yml'
+const address = 'https://github.com/FortAwesome/Font-Awesome/raw/5.15.0/metadata/icons.yml'
 
 
 let parser = async () => {
