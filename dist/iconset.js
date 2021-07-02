@@ -373,6 +373,7 @@ var __webpack_exports__ = {};
   { value: "far fa-copy", search: ["clone", "duplicate", "file", "files-o", "paper", "paste"] },
   { value: "fas fa-copyright", search: ["brand", "mark", "register", "trademark"] },
   { value: "far fa-copyright", search: ["brand", "mark", "register", "trademark"] },
+  { value: "fab fa-cotton-bureau", search: ["clothing", "t-shirts", "tshirts"] },
   { value: "fas fa-couch", search: ["chair", "cushion", "furniture", "relax", "sofa"] },
   { value: "fab fa-cpanel", search: [] },
   { value: "fab fa-creative-commons", search: [] },
