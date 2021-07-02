@@ -1,6 +1,6 @@
 {
   "name": "font-awesome-iconset",
-  "version": "5.6.1",
+  "version": "5.6.3",
   "description": "Font Awesome icon set.",
   "main": "./dist/iconset.min.js",
   "scripts": {

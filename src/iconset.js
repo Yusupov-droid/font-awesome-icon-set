@@ -508,6 +508,7 @@ export default [
   { value: "fas fa-filter", search: ["funnel", "options"] },
   { value: "fas fa-fingerprint", search: ["human", "id", "identification", "lock", "smudge", "touch", "unique", "unlock"] },
   { value: "fas fa-fire", search: ["caliente", "flame", "heat", "hot", "popular"] },
+  { value: "fas fa-fire-alt", search: ["caliente", "flame", "heat", "hot", "popular"] },
   { value: "fas fa-fire-extinguisher", search: [] },
   { value: "fab fa-firefox", search: ["browser"] },
   { value: "fas fa-first-aid", search: [] },
