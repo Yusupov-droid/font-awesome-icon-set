@@ -1,4 +1,4 @@
-# FontAwesome v5.5.0 - Icon set 
+# FontAwesome v5.6.0 - Icon set 
 
 ## Getting Start
 
@@ -17,7 +17,7 @@
 ### CDN
 
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/font-awesome-iconset@5.5.0/dist/iconset.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/font-awesome-iconset@5.6.0/dist/iconset.min.js"></script>
 
     <!-- ICON_SET global variable will be defined -->
 ```
