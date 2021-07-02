@@ -1,4 +1,4 @@
-# FontAwesome v5.11.0 - Icon set 
+# FontAwesome v5.12.0 - Icon set 
 
 ## Getting Start
 
