@@ -1484,7 +1484,6 @@ var __webpack_exports__ = {};
   { value: "fas fa-trash-restore-alt", search: ["back", "control z", "oops", "undo"] },
   { value: "fas fa-tree", search: ["bark", "fall", "flora", "forest", "nature", "plant", "seasonal"] },
   { value: "fab fa-trello", search: ["atlassian"] },
-  { value: "fab fa-tripadvisor", search: [] },
   { value: "fas fa-trophy", search: ["achievement", "award", "cup", "game", "winner"] },
   { value: "fas fa-truck", search: ["cargo", "delivery", "shipping", "vehicle"] },
   { value: "fas fa-truck-loading", search: ["box", "cargo", "delivery", "inventory", "moving", "rental", "vehicle"] },
